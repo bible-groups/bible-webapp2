@@ -4,7 +4,7 @@
       <div class="mb-8">
         <img src="/images/intro-icon.png" alt="Bible Story Logo" class="intro-logo w-24 h-24 mx-auto mb-8">
       </div>
-      <h2 class="text-4xl md:text-5xl font-bold mb-6">BIBLE STORY</h2>
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">BIBLE STORYS</h2>
       <h3 class="text-[20px] md:text-1xl font-semibold mb-15">말씀속에서 함께하는 여정</h3>
       <p class="text-xl md:text-lg mb-12 px-10 md:px-4">
         말씀속에서 묵상함으로 성경을 더욱 깊이 탐구하고,<br class="hidden md:block"> 
