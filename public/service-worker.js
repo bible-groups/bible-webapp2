@@ -32,7 +32,7 @@ registerRoute(
 
 // API 응답을 stale-while-revalidate 전략으로 캐시합니다.
 registerRoute(
-  ({ url }) => url.origin === 'https://bible-story.netlify.com',
+  ({ url }) => url.origin === 'https://bible-storys.netlify.com',
   new StaleWhileRevalidate({
     cacheName: 'api-responses', // 캐시 이름을 'api-responses'로 설정합니다.
     plugins: [

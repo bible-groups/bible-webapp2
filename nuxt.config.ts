@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     head: {
       title: 'GSEED',
       meta: [
-        { name: 'description', content: 'BIBLE STUDY - 성경의 세계를 더 깊이 탐구하고 신앙 생활을 풍성하게' },
+        { name: 'description', content: 'BIBLE STUDYS - 성경의 세계를 더 깊이 탐구하고 신앙 생활을 풍성하게' },
         { name: 'keywords', content: 'BIBLE STUDY, 성경, 묵상, 신앙, 기독교' },
         { name: 'author', content: 'BIBLE STUDY' },
         { name: 'robots', content: 'index, follow' },
