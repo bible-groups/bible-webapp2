@@ -1,9 +1,9 @@
 <template>
   <div class="flex justify-center items-center h-[75vh]">
-    <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
+    <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-md border border-gray-200">
       <h2 class="mb-4 text-center text-2xl font-bold">아이디 찾기</h2>
       
-      <div class="mb-4 p-4 bg-blue-100 text-blue-700 rounded">
+      <div class="mb-10 p-4 bg-blue-100 text-blue-700 rounded">
         Google 계정으로 가입하신 경우, Google 로그인을 이용해주세요.
       </div>
 
@@ -27,7 +27,7 @@
           아이디 찾기
         </button>
 
-        <div class="mt-4 text-center">
+        <div class="mt-7 text-center">
           <NuxtLink to="/login" class="text-indigo-600 hover:text-indigo-900">
             로그인으로 돌아가기
           </NuxtLink>
@@ -36,16 +36,16 @@
     </div>
 
     <!-- 결과 모달 -->
-    <div v-if="showResult" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+    <div v-if="showResult" class="fixed inset-0 flex items-center justify-center bg-black/30 ">
       <div class="bg-white rounded-lg shadow-lg max-w-sm w-full">
-        <div class="text-center p-4 border-b">
+        <div class="text-center p-4 border-b border-gray-200">
           <h3 class="text-lg font-semibold">아이디 찾기 결과</h3>
         </div>
-        <div class="p-4 text-center">
+        <div class="px-4 py-10 text-center">
           <p>찾은 아이디(이메일):</p>
           <p class="mt-2 text-lg font-medium">{{ maskedEmail }}</p>
         </div>
-        <div class="flex justify-center p-4 border-t">
+        <div class="flex justify-center p-4 border-t border-gray-200">
           <button
             class="py-2 px-4 bg-indigo-600 text-white font-semibold rounded-md shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
             @click="closeAndGoToLogin"

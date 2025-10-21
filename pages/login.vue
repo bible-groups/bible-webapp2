@@ -72,15 +72,22 @@
           </button>
         </div>
         
-        <p class="mt-2 text-center text-sm text-gray-600">
+        <p class="mt-2 text-center text-sm text-gray-600 flex flex-row justify-center gap-7">
           <button @click="router.push('/')" class="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer">
             첫화면으로 이동
+          </button> 
+
+          <button @click="switchToSignup" class="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer ml-3"> 
+            회원가입하기
           </button>
+
+          <!-- <button @click="router.push('/find-id')" class="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer">아이디 찾기</button> 
+          <button @click="router.push('/find-password')" class="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer">비밀번호 찾기</button>   -->
         </p>
 
         <!-- <p class="mt-2 text-center text-sm text-gray-600">
           계정이 없으신가요?
-          <button @click="switchToSignup" class="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer">
+          <button @click="switchToSignup" class="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer ml-3"> 
             회원가입하기
           </button>
         </p> -->

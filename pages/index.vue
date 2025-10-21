@@ -17,6 +17,12 @@
         >
           시작하기
         </button>    
+        <button           
+          @click="router.push('/signup')"
+          class="bg-indigo-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-600 transition-colors duration-200 flex items-center justify-center gap-2 w-auto max-w-xs mx-auto sm:mx-0"
+        >
+          회원가입
+        </button> 
       </div>
     </div>
 
@@ -123,6 +129,9 @@ useHead({
     { name: 'description', content: 'Bible Story - 성경의 세계를 더 깊이 탐구하고 신앙 생활을 풍성하게' }
   ]
 })
+
+// 라우터 사용
+const router = useRouter()
 
 // 반응형 데이터
 const showLoginModal = ref(false)

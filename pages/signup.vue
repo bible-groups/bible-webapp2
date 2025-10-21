@@ -61,7 +61,7 @@
 
         <p class="mt-2 text-center text-sm text-gray-600">
           이미 계정이 있으신가요?
-          <button @click="switchToLogin" class="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer">
+          <button @click="switchToLogin" class="font-medium text-indigo-600 hover:text-indigo-500 cursor-pointer ml-3">
             로그인하기
           </button>
         </p>
